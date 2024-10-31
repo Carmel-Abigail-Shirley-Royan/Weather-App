@@ -12,6 +12,46 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f5f7fa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.current-weather {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.weekly-forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.highlight-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
 
 .App-header {
   background-color: #282c34;
